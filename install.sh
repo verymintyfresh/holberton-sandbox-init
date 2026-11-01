@@ -9,7 +9,7 @@ echo "Hello! Getting .bashrc..."
 if [[ -f ~/.bashrc ]]; then
 	mv ~/.bashrc ~/.bashrc.old;
 fi
-wget -qO ~/.bashrc "" # get raw blob link
+wget -qO ~/.bashrc "https://raw.githubusercontent.com/verymintyfresh/holberton-sandbox-init/refs/heads/main/.bashrc"
 
 # Step 2!
 # Set up aliases.
@@ -17,7 +17,7 @@ echo "Getting aliases file..."
 if [[ -f ~/bash_aliases ]]; then
     mv ~/bash_aliases ~/bash_aliases.old;
 fi
-wget -qO ~/bash_aliases "" # get raw blob link
+wget -qO ~/bash_aliases "https://raw.githubusercontent.com/verymintyfresh/holberton-sandbox-init/refs/heads/main/bash_aliases"
 
 # Step 3!
 # Set up git.
