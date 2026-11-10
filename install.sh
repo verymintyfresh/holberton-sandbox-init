@@ -1,6 +1,6 @@
 USERNAME="verymintyfresh"
 USERMAIL="mint@mintyfresh.love"
-REPOS=("holbertonschool-shell")
+REPOS=("holbertonschool-shell" "holbertonschool-low_level_programming")
 NAME="Mint Raines"
 
 # Step 1!
